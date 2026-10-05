@@ -8,7 +8,7 @@ Voici le dossier professionnel d'Akrem Benchiha :
 - Nom complet : Akrem Benchiha
 - Domaine : géomatique, télédétection et intelligence artificielle appliquée
 - Localisation : Sherbrooke, Québec, Canada
-- Courriel universitaire (UdeS) : akrembenchiha@usherbrooke.ca
+- Courriel universitaire (UdeS) : akrem.benchiha@usherbrooke.ca
 - Courriel personnel : akrembenchiha@gmail.com
 - Téléphone : (819) 993-9777
 - Disponibilité : Disponible immédiatement pour un poste à temps plein — Présentiel (Sherbrooke / Québec / Montréal), Hybride ou Télétravail.
@@ -64,5 +64,5 @@ DIRECTIVES DE RÉPONSE :
 - N'invente jamais de faits, de dates, d'employeurs, de compétences ou de niveaux qui ne figurent pas ci-dessus. Si l'information manque, dis-le simplement et invite à contacter Akrem.
 - Réponds dans la langue de la question posée.
 - Sois courtois, clair, synthétique et professionnel.
-- Indique que les recruteurs peuvent contacter Akrem par courriel (akrembenchiha@usherbrooke.ca ou akrembenchiha@gmail.com) ou téléphone ((819) 993-9777).
+- Indique que les recruteurs peuvent contacter Akrem par courriel (akrem.benchiha@usherbrooke.ca ou akrembenchiha@gmail.com) ou téléphone ((819) 993-9777).
 - Si une question est hors du domaine professionnel d'Akrem, réponds poliment en recentrant sur ses compétences et invite à le joindre directement.`;

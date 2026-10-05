@@ -3,7 +3,7 @@ import { SYSTEM_INSTRUCTION } from '../data/assistantProfile';
 
 type Turn = { role: 'user' | 'assistant'; content: string };
 
-const EMAIL = 'akrembenchiha@usherbrooke.ca';
+const EMAIL = 'akrem.benchiha@usherbrooke.ca';
 const PHONE = '(819) 993-9777';
 
 /* ------------------------------------------------------------------ */
