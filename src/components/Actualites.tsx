@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import {
   ArrowLeft, ArrowUpRight, FlaskConical, GraduationCap, Landmark, Languages, LayoutGrid, Map as MapIcon,
-  MessageSquareQuote, Rss, Satellite, Search, Share2, X,
+  MessageSquareQuote, Satellite, Search, Share2, X,
 } from 'lucide-react';
 import type { Language } from '../data/cvData';
 import { NEWS_COMMENTS } from '../data/newsComments';
@@ -38,7 +38,6 @@ const T = {
     titleSerif: 'et télédétection.',
     subtitle: 'Les nouvelles que je suis au quotidien, issues uniquement de sources reconnues : agences spatiales, gouvernements, universités et revues scientifiques.',
     sharePage: 'Partager ma veille',
-    rss: 'RSS',
     iotd: 'Image satellite du jour',
     filters: { all: 'Tout', agences: 'Agences spatiales', canada: 'Canada', universites: 'Universités', recherche: 'Revues scientifiques' },
     searchPh: 'Rechercher…',
@@ -75,7 +74,6 @@ const T = {
     titleSerif: 'remote sensing news.',
     subtitle: 'The news I follow every day, only from recognized sources: space agencies, governments, universities and scientific journals.',
     sharePage: 'Share my watch',
-    rss: 'RSS',
     iotd: 'Satellite image of the day',
     filters: { all: 'All', agences: 'Space agencies', canada: 'Canada', universites: 'Universities', recherche: 'Journals' },
     searchPh: 'Search…',
@@ -197,10 +195,6 @@ export function Actualites({ lang }: { lang: Language }) {
               <a href={linkedIn(PAGE_URL)} target="_blank" rel="noopener noreferrer"
                 className="px-4 py-2.5 text-sm font-medium text-white bg-[#0A66C2] rounded-lg hover:bg-[#004182] transition-colors inline-flex items-center gap-2">
                 <Share2 className="w-4 h-4" /> {t.sharePage}
-              </a>
-              <a href={`${import.meta.env.BASE_URL}veille.xml`} target="_blank" rel="noopener noreferrer"
-                className="px-4 py-2.5 text-sm font-medium text-slate-900 border border-slate-900/20 rounded-lg hover:bg-white transition-colors inline-flex items-center gap-2">
-                <Rss className="w-4 h-4 text-orange-600" /> {t.rss}
               </a>
             </div>
           </div>
