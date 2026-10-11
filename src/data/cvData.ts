@@ -259,7 +259,7 @@ export const CV_DATA: Record<Language, CVContent> = {
       {
         id: 'mitacs-geoai',
         index: '01',
-        title: 'Plateforme intelligence pour la synthèse des connaissances environnementales et l’aide à la prise de décision',
+        title: 'Plateforme intelligente pour la synthèse des connaissances environnementales et l’aide à la prise de décision',
         subtitle: 'Stage Mitacs — T2 Environnement & Université de Sherbrooke',
         organization: 'T2 Environnement & Université de Sherbrooke',
         location: 'Sherbrooke, QC',
@@ -273,9 +273,9 @@ export const CV_DATA: Record<Language, CVContent> = {
         projectObjective:
           'Développer une plateforme intelligente capable de comprendre des enjeux posés en langage naturel et d’y répondre en s’appuyant sur les données internes de l’entreprise et les meilleures sources externes disponibles.',
         shortDescription:
-          'Face à la complexité croissante des enjeux environnementaux, l’entreprise T2 Environnement doit prendre des décisions rapides et éclairées à partir d’une grande quantité d’informations techniques, réglementaires et scientifiques. Grâce à l’intelligence artificielle, cette plateforme offrira un accès rapide, clair et pertinent à l’information, facilitant ainsi la prise de décision dans des contextes comme la restauration écologique, les évaluations environnementales ou les demandes d’autorisation.',
+          'Pendant mon stage Mitacs, j’ai développé une plateforme qui comprend des questions posées en langage naturel et y répond en croisant les données internes de T2 Environnement avec des sources externes fiables. Elle aide les équipes à décider rapidement en restauration écologique, en évaluation environnementale et pour les demandes d’autorisation.',
         summary:
-          'Face à la complexité croissante des enjeux environnementaux, ce projet développe une plateforme intelligente capable de comprendre des enjeux posés en langage naturel et d’y répondre en s’appuyant sur les données internes et externes pour faciliter la prise de décision.',
+          'Plateforme d’IA qui répond en langage naturel aux questions environnementales en croisant données internes et sources externes, pour appuyer la prise de décision.',
         challenge:
           'Prendre des décisions rapides et éclairées à partir d’une grande quantité d’informations techniques, réglementaires et scientifiques face à la complexité croissante des enjeux environnementaux.',
         architecture: [
@@ -289,7 +289,7 @@ export const CV_DATA: Record<Language, CVContent> = {
           'Accès rapide, clair et pertinent à l’information technique, réglementaire et scientifique.',
           'Application aux mandats de restauration écologique, d’évaluations environnementales et de demandes d’autorisation.',
         ],
-        stack: ['Intelligence Artificielle', 'Langage Naturel', 'Agent Conversationnel', 'Génération Augmentée de Données (RAG)', 'Bases de Connaissances', 'Grands Modèles de Langage (LLM)'],
+        stack: ['Intelligence Artificielle', 'Langage Naturel', 'Agent Conversationnel', 'Génération augmentée par récupération (RAG)', 'Bases de Connaissances', 'Grands Modèles de Langage (LLM)'],
       },
       {
         id: 'edge-smart-parking',
@@ -364,13 +364,13 @@ export const CV_DATA: Record<Language, CVContent> = {
         type: 'Stage de stratégie d’entreprise (Mitacs)',
         category: 'ai',
         highlights: [
-          'Projet : Plateforme intelligence pour la synthèse des connaissances environnementales et l’aide à la prise de décision (8 mois, deux unités de stage Mitacs).',
+          'Projet : Plateforme intelligente pour la synthèse des connaissances environnementales et l’aide à la prise de décision (8 mois, deux unités de stage Mitacs).',
           'Supervision : Pr Mickaël Germain, Pr Samuel Foucher et Pr Yacine Bouroubi (Département de géomatique appliquée, UdeS), avec l’équipe de biologistes de T2 Environnement.',
           'Objectif : Développer une plateforme intelligente capable de comprendre des enjeux posés en langage naturel et d’y répondre en s’appuyant sur les données internes de l’entreprise et les meilleures sources externes disponibles.',
           'Contexte : Face à la complexité croissante des enjeux environnementaux, T2 Environnement doit prendre des décisions rapides et éclairées à partir d’une grande quantité d’informations techniques, réglementaires et scientifiques.',
-          'Impact : Offrir un accès rapide, clair et pertinent à l’information grâce à l’intelligence artificielle, facilitant la prise de décision dans des contextes comme la restauration écologique, les évaluations environnementales ou les demandes d’autorisation.',
+          'Réalisation : Conception d’une architecture RAG (récupération + LLM) reliant une base de connaissances à un agent conversationnel, pour appuyer la prise de décision en restauration écologique, en évaluation environnementale et pour les demandes d’autorisation.',
         ],
-        technologies: ['Intelligence Artificielle', 'Langage Naturel', 'Agent Conversationnel', 'Génération Augmentée de Données (RAG)', 'Bases de Connaissances', 'Grands Modèles de Langage (LLM)'],
+        technologies: ['Intelligence Artificielle', 'Langage Naturel', 'Agent Conversationnel', 'Génération augmentée par récupération (RAG)', 'Bases de Connaissances', 'Grands Modèles de Langage (LLM)'],
       },
       {
         id: 'exp-edge',
@@ -508,7 +508,7 @@ export const CV_DATA: Record<Language, CVContent> = {
         period: '2024 – 2026',
         focus: 'Télédétection avancée, analyse d’images satellite, SIG, modélisation environnementale et IA géospatiale.',
         coordinates: '45.3780° N, 71.9280° W',
-        thesisTitle: 'Plateforme intelligence pour la synthèse des connaissances environnementales et l’aide à la prise de décision',
+        thesisTitle: 'Plateforme intelligente pour la synthèse des connaissances environnementales et l’aide à la prise de décision',
         thesisRole: 'Stagiaire, Université de Sherbrooke (Département de géomatique appliquée)',
         thesisDescription:
           'Projet de stage de recherche Mitacs réalisé en partenariat avec T2 Environnement visant à développer une plateforme intelligente capable de comprendre des enjeux posés en langage naturel et d’y répondre en s’appuyant sur les données internes et externes disponibles pour faciliter la prise de décision en contexte environnemental.',
@@ -665,9 +665,9 @@ export const CV_DATA: Record<Language, CVContent> = {
         projectObjective:
           'Develop an intelligent platform capable of understanding environmental challenges expressed in natural language and answering them using internal company data and the best available external sources.',
         shortDescription:
-          'Faced with the growing complexity of environmental challenges, T2 Environnement must make rapid, informed decisions based on large volumes of technical, regulatory, and scientific information. Powered by artificial intelligence, this platform will provide fast, clear, and relevant access to information, facilitating decision-making in contexts such as ecological restoration, environmental assessments, and permit applications.',
+          'During my Mitacs internship, I developed a platform that understands questions asked in natural language and answers them by combining T2 Environnement’s internal data with reliable external sources. It helps teams make quick decisions in ecological restoration, environmental assessments and permit applications.',
         summary:
-          'Faced with growing environmental complexity, this project develops an intelligent platform capable of understanding questions in natural language and answering them using internal and external data to facilitate environmental decision-making.',
+          'AI platform that answers environmental questions in natural language by combining internal data and external sources to support decision-making.',
         challenge:
           'Making rapid and informed decisions based on large volumes of technical, regulatory, and scientific information in the face of increasingly complex environmental challenges.',
         architecture: [
@@ -760,7 +760,7 @@ export const CV_DATA: Record<Language, CVContent> = {
           'Supervision: Prof. Mickaël Germain, Prof. Samuel Foucher and Prof. Yacine Bouroubi (Applied Geomatics, UdeS), with T2 Environnement’s team of biologists.',
           'Objective: Develop an intelligent platform capable of understanding environmental challenges expressed in natural language and answering them using internal company data and top external sources.',
           'Context: Faced with the growing complexity of environmental challenges, T2 Environnement must make rapid, informed decisions based on large volumes of technical, regulatory, and scientific information.',
-          'Impact: Provide fast, clear, and relevant access to information through artificial intelligence, facilitating decision-making in contexts such as ecological restoration, environmental assessments, and permit applications.',
+          'Achievement: Designed a RAG architecture (retrieval + LLM) linking a knowledge base to a conversational agent, to support decision-making in ecological restoration, environmental assessments and permit applications.',
         ],
         technologies: ['Artificial Intelligence', 'Natural Language', 'Conversational Agent', 'Retrieval-Augmented Generation (RAG)', 'Knowledge Bases', 'Large Language Models (LLM)'],
       },
