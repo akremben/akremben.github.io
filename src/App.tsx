@@ -299,6 +299,15 @@ export function App() {
                 >
                   {content.hero.secondaryCta}
                 </a>
+                <a
+                  href="https://www.linkedin.com/in/akrem-benchiha-37a955287/"
+                  target="_blank"
+                  rel="me noopener noreferrer"
+                  className="px-4 py-2.5 text-sm font-medium text-white bg-[#0A66C2] rounded-lg hover:bg-[#004182] transition-colors whitespace-nowrap shrink-0 inline-flex items-center gap-2"
+                >
+                  <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.73V1.73C24 .77 23.21 0 22.23 0z"/></svg>
+                  <span>LinkedIn</span>
+                </a>
                 <button
                   type="button"
                   onClick={() => setShowAssistantModal(true)}
@@ -921,6 +930,30 @@ export function App() {
                       : content.contactSection.copyPhone}
                   </button>
                 </div>
+
+                {/* LinkedIn Card */}
+                <div className="bg-white border border-slate-900/10 rounded-xl p-4 flex items-center justify-between gap-4">
+                  <div className="min-w-0">
+                    <div className="text-xs text-slate-500">LinkedIn</div>
+                    <a
+                      href="https://www.linkedin.com/in/akrem-benchiha-37a955287/"
+                      target="_blank"
+                      rel="me noopener noreferrer"
+                      className="text-sm font-mono-tabular font-semibold text-slate-900 hover:text-[#0A66C2] truncate block"
+                    >
+                      linkedin.com/in/akrem-benchiha
+                    </a>
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/akrem-benchiha-37a955287/"
+                    target="_blank"
+                    rel="me noopener noreferrer"
+                    className="px-3 py-1.5 text-xs font-medium text-white bg-[#0A66C2] rounded-lg hover:bg-[#004182] transition-colors whitespace-nowrap shrink-0 inline-flex items-center gap-1.5"
+                  >
+                    <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.73V1.73C24 .77 23.21 0 22.23 0z"/></svg>
+                    {lang === 'fr' ? 'Voir le profil' : 'View profile'}
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -1028,6 +1061,10 @@ export function App() {
             <span aria-hidden="true">·</span>
             <a href="https://github.com/akremben" target="_blank" rel="me noopener" className="hover:text-slate-900">
               GitHub
+            </a>
+            <span aria-hidden="true">·</span>
+            <a href="https://www.linkedin.com/in/akrem-benchiha-37a955287/" target="_blank" rel="me noopener" className="hover:text-slate-900">
+              LinkedIn
             </a>
           </div>
         </div>
@@ -1428,6 +1465,7 @@ export function App() {
           <p className="text-xs mt-1">
             Sherbrooke, QC | {content.meta.academicEmail} | {content.meta.phone} | {content.meta.availability}
           </p>
+          <p className="text-xs">linkedin.com/in/akrem-benchiha-37a955287 | akremben.github.io</p>
         </div>
         <div>
           <h2 className="text-xs font-bold border-b border-black pb-1 mb-1.5">PROFIL PROFESSIONNEL</h2>
