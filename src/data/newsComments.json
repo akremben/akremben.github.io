@@ -1,0 +1,19 @@
+{
+  "_aide": "Pour commenter un article : copie un bloc de la liste 'commentaires', colle le lien exact de l'article, puis écris ton commentaire en français (fr) et en anglais (en). Le premier bloc est un BROUILLON à réécrire avec tes mots.",
+  "commentaires": [
+    {
+      "link": "https://science.nasa.gov/earth/earth-observatory/floodwaters-overwhelm-thailand/",
+      "date": "2026-10-11",
+      "source": "NASA Earth Observatory",
+      "title": {
+        "fr": "Des inondations submergent la Thaïlande",
+        "en": "Floodwaters Overwhelm Thailand"
+      },
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/floodwaters-overwhelm-thailand/thailandflooding_oli2_20261002.jpg?w=900",
+      "comment": {
+        "fr": "Un bon exemple de l'intérêt des compositions en fausses couleurs de Landsat : l'eau se distingue nettement de la végétation, ce qui permet de délimiter rapidement les zones inondées. C'est le type d'analyse que j'utilisais en cartographie des risques naturels. Quand la couverture nuageuse bloque les capteurs optiques, l'imagerie radar (Sentinel-1, RADARSAT) prend le relais.",
+        "en": "A good example of why Landsat false-color composites matter: water stands out clearly from vegetation, making it possible to map flooded areas quickly. It is the kind of analysis I used in natural-hazard mapping. When cloud cover blocks optical sensors, radar imagery (Sentinel-1, RADARSAT) takes over."
+      }
+    }
+  ]
+}

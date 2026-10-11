@@ -5,6 +5,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '0 10 * * *' # chaque jour à 6 h (heure de l'Est) : actualités à jour
 
 permissions:
   contents: read
@@ -24,6 +26,9 @@ jobs:
         with:
           node-version: 22
       - run: npm install --no-audit --no-fund
+      - name: Fetch geomatics news (official sources)
+        run: node scripts/fetch-news.mjs
+        continue-on-error: true
       - name: Build the static site
         run: npx vite build
         env:

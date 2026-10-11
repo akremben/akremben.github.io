@@ -1,0 +1,43 @@
+{
+  "updatedAt": "2026-10-11T12:00:00.000Z",
+  "sources": [],
+  "status": [],
+  "items": [
+    {
+      "title": "Floodwaters Overwhelm Thailand",
+      "link": "https://science.nasa.gov/earth/earth-observatory/floodwaters-overwhelm-thailand/",
+      "date": "2026-10-09T04:01:00.000Z",
+      "summary": "Heavy rains since mid-September have caused widespread flooding that has affected millions of people across the country.",
+      "source": "NASA Earth Observatory",
+      "sourceId": "nasa-eo",
+      "org": "NASA",
+      "category": "agences",
+      "type": "gov",
+      "lang": "en",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/floodwaters-overwhelm-thailand/thailandflooding_oli2_20261002.jpg?w=900",
+      "translated": {
+        "lang": "fr",
+        "title": "Des inondations submergent la Thaïlande",
+        "summary": "Des pluies abondantes depuis la mi-septembre ont provoqué des inondations généralisées qui touchent des millions de personnes dans tout le pays."
+      }
+    },
+    {
+      "title": "Fighting Drought in Texas Cotton Country",
+      "link": "https://science.nasa.gov/earth/earth-observatory/fighting-drought-in-texas-cotton-country/",
+      "date": "2026-10-08T04:01:00.000Z",
+      "summary": "Drought and an ailing aquifer were major topics of conversation when NASA scientists visited with farmers in the Texas High Plains.",
+      "source": "NASA Earth Observatory",
+      "sourceId": "nasa-eo",
+      "org": "NASA",
+      "category": "agences",
+      "type": "gov",
+      "lang": "en",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/fighting-drought-in-texas-cotton-country/texasdrought_oli_20260909.jpg?w=900",
+      "translated": {
+        "lang": "fr",
+        "title": "Lutter contre la sécheresse au pays du coton, au Texas",
+        "summary": "La sécheresse et un aquifère en déclin étaient au cœur des échanges lorsque des scientifiques de la NASA ont rencontré des agriculteurs des Hautes Plaines du Texas."
+      }
+    }
+  ]
+}

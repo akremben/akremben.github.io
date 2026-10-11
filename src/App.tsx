@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   ArrowUpRight,
   Bot,
@@ -19,10 +19,26 @@ import {
 import { CV_DATA, Language, ProjectCaseStudy, SkillCategory } from './data/cvData';
 import { GeoLab } from './components/GeoLab';
 import { Publications } from './components/Publications';
+import { Actualites } from './components/Actualites';
 import { askClaude, localAnswer } from './lib/assistantFallback';
 
 export function App() {
   const [lang, setLang] = useState<Language>('fr');
+  const isNewsHash = () => window.location.hash.startsWith('#/actualites');
+  const [showNews, setShowNews] = useState<boolean>(isNewsHash());
+  useEffect(() => {
+    const onHash = () => {
+      const news = isNewsHash();
+      setShowNews(news);
+      // Retour au portfolio vers une section : défiler après le rendu
+      if (!news && window.location.hash.length > 1) {
+        const id = window.location.hash.slice(1);
+        setTimeout(() => document.getElementById(id)?.scrollIntoView(), 0);
+      }
+    };
+    window.addEventListener('hashchange', onHash);
+    return () => window.removeEventListener('hashchange', onHash);
+  }, []);
   const [projectFilter, setProjectFilter] = useState<SkillCategory>('all');
   const [experienceFilter, setExperienceFilter] = useState<SkillCategory>('all');
   const [skillSearch, setSkillSearch] = useState<string>('');
@@ -202,10 +218,22 @@ export function App() {
             >
               {content.nav.contact}
             </a>
+            <a
+              href="#/actualites"
+              className={`hover:text-slate-900 hover:underline underline-offset-8 transition-colors whitespace-nowrap shrink-0 ${showNews ? 'text-slate-900 underline' : ''}`}
+            >
+              {lang === 'fr' ? 'Actualités' : 'News'}
+            </a>
           </nav>
 
           {/* Zone 3: 2 primary actions (Language switch + CV Print/PDF View) */}
           <div className="flex items-center gap-3 shrink-0">
+            <a
+              href="#/actualites"
+              className="lg:hidden px-3 py-2 text-xs font-medium text-slate-700 border border-slate-300 rounded-lg hover:bg-white/60 transition-colors whitespace-nowrap"
+            >
+              {lang === 'fr' ? 'Actualités' : 'News'}
+            </a>
             <button
               type="button"
               onClick={() => setLang(lang === 'fr' ? 'en' : 'fr')}
@@ -226,7 +254,8 @@ export function App() {
       </header>
 
       {/* Main Content */}
-      <main id="top" className="flex-1 no-print">
+      {showNews && <Actualites lang={lang} />}
+      <main id="top" className={`flex-1 no-print ${showNews ? 'hidden' : ''}`}>
         {/* Hero Section: Split-Screen Editorial Layout */}
         <section className="max-w-[1280px] mx-auto px-6 pt-12 pb-16 md:pt-20 md:pb-24">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
